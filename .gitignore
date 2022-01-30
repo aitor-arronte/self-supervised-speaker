@@ -1,0 +1,7 @@
+venv/
+.idea/
+*.json
+*.txt
+*.pyc
+creds/
+*.DS_Store
