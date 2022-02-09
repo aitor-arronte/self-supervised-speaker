@@ -24,7 +24,6 @@ class Resblock(nn.Module):
         return out
 
 
-
 class ResidualBLSTM(nn.Module):
     def __init__(self, block, layers):
         super(ResidualBLSTM, self).__init__()

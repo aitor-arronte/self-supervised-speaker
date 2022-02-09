@@ -37,7 +37,3 @@ class MinSpeak(nn.Module):
 		p2 = self.predictor(o2)
 
 		return p1, p2, o1.detach(), o2.detach()
-
-
-
-
